@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>''
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+
+}
+
+p {
+  border: 1px solid black;
+  background-color: gray;
+  width: 90%;
+  height: 150px;
+  font-family: Helvetica;
+  color:black;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  align: left;
+  padding-left:0px;
+}
+
+/********** Desktops **********/
+@media (min-width: 992px) {
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+   
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+    
+}
+
+@media (min-width: 767px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  
+}
+
+
+
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div class="row">
+  <div class="col-lg-3 col-md-3"><p>Chicken Marsala
+   <br/> 
+   Ingredients:Chicken,Red peppers,Garlic,Dry Marsala wine,Mushrooms
+  </p>
+  </div>
+  <div class="col-lg-6 col-md-3"><p>Beef Burger
+  <br/> 
+   Ingredients:Baked Beef,Tomatoes,Lettuce,Bacon with Sweet Potato fries.
+  </p>
+  </div>
+  <div class="col-lg-6 col-md-3"><p>Sushi 
+  <br/> 
+   Chinese sushi flavors with soy sauce and ketchup
+  </p>
+  </div>
+</div>
+ 
+</body>
+</html>
