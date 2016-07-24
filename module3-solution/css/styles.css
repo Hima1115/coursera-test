@@ -54,3 +54,21 @@ body{
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
+
+div.row {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sushi_box {
+    background-color: #aabbcc
+}
+
+#chicken_box {
+    background-color: #dd99bb
+}
+
+#beef_box {
+    background-color: #ffe9d3
+}
