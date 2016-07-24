@@ -22,14 +22,20 @@
 
 
 #chicken_box {
-    background-color: gray
+    background-color: gray;
+    font-color:Black;
+    width:100%
 }
 #beef_box {
-    background-color: Gray
+    background-color: gray;
+    font-color:Black;
+    width:100% 
 }
 
 #sushi_box {
-    background-color: gray
+     background-color: gray;
+     font-color:Black;
+     width:100% 
 }
 body {
   font-size: 16px;
