@@ -1,17 +1,19 @@
 body {
   font-size: 16px;
   color: gray;
-  background-color:Gainsboro;
+  background-color:white;
   font-family: 'gary family', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: black;
+  background-color: gray;
   border-radius: 0;
   border: 0;
 }
 
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -22,7 +24,7 @@ body {
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+  font-family: 'black', serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
