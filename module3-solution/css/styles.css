@@ -37,24 +37,6 @@
      font-color:Black;
      width:100% 
 }
-body {
-  font-size: 16px;
-  color: Black;
-  background-color: gray;
-  
-}
-
-/** HEADER **/
-#header-nav {
-  background-color:gray ;
-  border-radius: 0;
-  border: 0;
-}
-
-
-.navbar-brand {
-  padding-top: 25px;
-}
 
 .navbar-brand h1 { /* Restaurant name */
  color: Black;
@@ -64,6 +46,5 @@ body {
   margin-bottom: 0;
   line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
+
+
