@@ -24,18 +24,21 @@
 #chicken_box {
     background-color: gray;
     font-color:Black;
-    width:100%
+    width:200%
+    height:80%
 }
 #beef_box {
     background-color: gray;
     font-color:Black;
-    width:150% 
+    width:200% 
+    height:80%
 }
 
 #sushi_box {
      background-color: gray;
      font-color:Black;
-     width:100% 
+     width:200% 
+     height:80%
 }
 
 .navbar-brand h1 { /* Restaurant name */
