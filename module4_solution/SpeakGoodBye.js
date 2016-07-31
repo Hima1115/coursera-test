@@ -11,7 +11,7 @@
  //  var byeSpeaker = {John,Jen,Jason,Jim}
    
  (function (window) {
-   var byeSpeaker = (};
+   var byeSpeaker = {};
   // byeSpeaker.name;
   //  = "Yaakov";
   var speakWord = "Good Bye";
