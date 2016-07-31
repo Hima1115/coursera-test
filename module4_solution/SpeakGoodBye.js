@@ -10,16 +10,16 @@
 // See Lecture 52, part 1
  //  var byeSpeaker = {John,Jen,Jason,Jim}
    
-   (function (window) {
-   var byeSpeaker = {John,Jen,Jason,Jim};
-   byeSpeaker.name;
+ (function (window) {
+   var byeSpeaker = (};
+  // byeSpeaker.name;
   //  = "Yaakov";
   var speakWord = "Good Bye";
-  byeSpeaker.sayHello = function () {
-    console.log(speakWord + byeSpeaker.name);
+  byeSpeaker.speakWord = function (name) {
+    console.log(speakWord + "" + name);
   }
 
-  window.byeSpeaker =byeSpeaker;
+  window.byeSpeaker = byeSpeaker;
 
 })(window);
 // DO NOT attach the speakWord variable to the 'byeSpeaker' object.

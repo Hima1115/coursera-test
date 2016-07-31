@@ -18,12 +18,12 @@ var helloSpeaker = {Yaakov,Paul,Frank,Larry,Paula,Laura}
 } */
 
 (function (window) {
-  var helloSpeaker = {Yaakov,Paul,Frank,Larry,Paula,Laura};
-  helloSpeaker.name;
+  var helloSpeaker = {};
+ // helloSpeaker.name;
 //  = "Yaakov";
   var speakWord = "Hello";
-  helloSpeaker.sayHello = function () {
-    console.log(speakWord + helloSpeaker.name);
+  helloSpeaker.sayHello = function (name) {
+    console.log(speakWord + " " + name);
   }
 
   window.helloSpeaker = helloSpeaker;
