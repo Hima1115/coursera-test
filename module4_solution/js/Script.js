@@ -41,7 +41,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // 'speak' method.
 // See Lecture 50, part 1
 for (var i = 0; i < names.length; i++) {
-	console.log("Hello" + names[i]);
+	//console.log("Hello" + names[i]);
 }	
 
   // STEP 11: (NOTHING TO DO. ALREADY DONE FOR YOU)
@@ -66,4 +66,4 @@ for (var i = 0; i < names.length; i++) {
   }
 }
 
-)(window);
+})(window);
